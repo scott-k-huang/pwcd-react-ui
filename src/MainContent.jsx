@@ -1,12 +1,12 @@
 import { useState } from 'react'
-import './App.css'
+import './MainContent.css'
 
-function App() {
+function MainContent() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <div className="card">
+      <div id="mainContent" className="card">
         <p>
           The purpose of this tool is to help you form good habits by allowing you to track progress on simple goals over the course of the week
         </p>
@@ -15,4 +15,4 @@ function App() {
   )
 }
 
-export default App
+export default MainContent
